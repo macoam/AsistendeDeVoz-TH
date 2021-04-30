@@ -23,6 +23,8 @@ def record_audio(ask = False):
 def respond(voice_data):
     if 'nombre' in voice_data:
         print('Mi nombre es Alexis :3')
+    if 'edad' in voice_data:
+        print('Apenas unas semanas)
     if 'hora'in voice_data:
         print(ctime())
     if 'buscar' in voice_data:
